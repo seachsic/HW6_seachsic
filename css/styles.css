@@ -655,9 +655,6 @@ img {
   color: var(--main-clr);
 }
 
-.footer-cont {
-}
-
 .footer-title {
   text-transform: uppercase;
   padding-top: 12px;
@@ -780,7 +777,7 @@ img {
   text-decoration: none;
   color: var(--dark-txt-clr);
   width: 370px;
-  transition: box-shadow 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .thumb-port {
@@ -878,4 +875,52 @@ img {
   width: 528px;
   height: 581px;
   background-color: var(--light-txt-clr);
+}
+
+.form-mail {
+  background-color: var(--dark-grey-clr);
+  margin-top: 20px;
+  padding: 15px 0;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+}
+
+.footer-form {
+display: flex;
+
+}
+
+.footer-cont {
+  margin-right: 96px;
+}
+
+.footer-btn {
+  display: flex;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  position: relative;
+  cursor: pointer;
+  color: var(--light-txt-clr);
+  background-color: var(--main-clr);
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: transparent;
+  margin: 0 auto;
+  height: 50px;
+  margin-top: 20px;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-btn:hover {
+  background-color: var(--btn-clr);
+}
+
+.footer-icon-send {
 }
