@@ -875,22 +875,23 @@ img {
   width: 528px;
   height: 581px;
   background-color: var(--light-txt-clr);
+  padding: 40px;
 }
 
 .form-mail {
   background-color: var(--dark-grey-clr);
   margin-top: 20px;
-  padding: 15px 0;
+  padding: 24px 0;
   padding-left: 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   width: 358px;
+  color: var(--light-txt-clr)
 }
 
 .footer-form {
-display: flex;
-
+  display: flex;
 }
 
 .footer-cont {
@@ -907,11 +908,14 @@ display: flex;
   color: var(--light-txt-clr);
   background-color: var(--main-clr);
   border-radius: 4px;
-  padding: 10px 32px;
   border: transparent;
   margin: 0 auto;
-  height: 50px;
   margin-top: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
 
   transition-property: background-color;
   transition-duration: 250ms;
@@ -923,4 +927,78 @@ display: flex;
 }
 
 .footer-icon-send {
+}
+
+.form-title {
+  width: 448px;
+  height: 23px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--dark-txt-clr);
+  margin-bottom: 12px;
+}
+
+.form-note {
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 448px;
+  height: 138px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  color: #75757580;
+  padding: 12px 16px;
+}
+
+input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 40px;
+}
+
+.check {
+  width: 16px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.check-class {
+  position: absolute;
+  left: 60px;
+}
+
+.check-text {
+  color: var(--main-clr);
+}
+
+.check-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  color: var(--light-txt-clr);
+  background-color: var(--main-clr);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: transparent;
+  margin: 0 auto;
+  width: 200px;
+  flex-direction: column;
+  display: block;
+}
+
+.check-btn:hover {
+  background-color: var(--btn-clr);
 }

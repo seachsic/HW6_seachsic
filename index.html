@@ -551,11 +551,17 @@
             </li>
           </ul>
         </div>
-        <div class="footer-cont">
+        <div class="footer-contain">
           <h3 class="footer-title">підпишіться на розсилку</h3>
           <form class="footer-form">
-            <input type="mail" class="form-mail" placeholder="E-mail" name="mail">
-            <button type="button" class="footer-btn">Підписатися
+            <input 
+              type="mail"
+              class="form-mail"
+              placeholder="E-mail"
+              name="mail"
+            />
+            <button type="button" class="footer-btn">
+              Підписатися
               <a class="footer-icon-send" href="">
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
@@ -573,6 +579,51 @@
             <use href="./images/icons.svg#vector"></use>
           </svg>
         </button>
+        <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
+        <form class="form-note">
+          <label
+            >Ім'я
+            <input type="name" name="username" />
+            <svg class="svg-name" width="12" height="12">
+              <use href="./images/icons.svg#vectorname"
+            </svg>
+          </label>
+          <label
+            >Телефон
+            <input type="tel" name="usertel" />
+            <svg width="12" height="12">
+              <use href="./images/icons.svg#vectortel"
+            </svg>
+          </label>
+          <label
+            >Пошта
+            <input type="mail" name="usermail" />
+            <svg width="12" height="12">
+              <use href="./images/icons.svg#vectormail"
+            </svg>
+          </label>
+          <label
+            >Коментар
+            <textarea
+              name="name"
+              id=""
+              cols="30"
+              rows="10"
+              width="448"
+              height="138"
+              ;
+            >
+Введіть текст</textarea
+            >
+          </label>
+          <label>
+            <input class="check" type="checkbox" name="click" value="" checked />
+          <p class="check-class">Погоджуюся з розсилкою та приймаю <a href="/" ><span class="check-text">Умови договору</span></a></p>
+          </label>
+            <button type="button" class="check-btn" data-modal-open>
+            Відправити            
+            </button>
+        </form>
       </div>
     </div>
     <script src="./modal.js"></script>
