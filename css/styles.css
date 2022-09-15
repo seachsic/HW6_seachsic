@@ -860,6 +860,11 @@ img {
   background-color: var(--light-txt-clr);
 }
 
+.svg-vector:hover, 
+.svg-vector:focus {
+  fill: var(--main-clr);
+}
+
 .vector.is-hidden {
   opacity: 0;
   pointer-events: none;
@@ -887,7 +892,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   width: 358px;
-  color: var(--light-txt-clr)
+  color: var(--light-txt-clr);
 }
 
 .footer-form {
@@ -958,11 +963,36 @@ textarea {
   padding: 12px 16px;
 }
 
+.label-1 {
+  position: relative;
+}
+
 input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 448px;
   height: 40px;
+  cursor: pointer;
+}
+
+.input-name:hover {
+  border: 1px solid var(--main-clr);
+}
+
+.label-1:focus,
+.label-1:hover {
+  fill: var(--main-clr);
+}
+
+.svg-name {
+  position: absolute;
+  top: 30px;
+  left: 12px;
+}
+
+.svg-name:hover,
+.svg-name:focus {
+  fill: var(--main-clr);
 }
 
 .check {

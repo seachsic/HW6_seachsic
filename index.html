@@ -560,13 +560,11 @@
               placeholder="E-mail"
               name="mail"
             />
-            <button type="button" class="footer-btn">
+            <button type="submit" class="footer-btn">
               Підписатися
-              <a class="footer-icon-send" href="">
                 <svg width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
-              </a>
             </button>
           </form>
         </div>
@@ -575,32 +573,35 @@
     <div class="vector is-hidden" data-modal>
       <div class="vectored">
         <button class="vector-btn" data-modal-close>
-          <svg width="18" height="18">
+          <svg class="svg-vector" width="18" height="18">
             <use href="./images/icons.svg#vector"></use>
           </svg>
         </button>
         <p class="form-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form-note">
-          <label
+          <label class="label-1"
             >Ім'я
-            <input type="name" name="username" />
+            <input type="name" class="input-name" name="username" />
             <svg class="svg-name" width="12" height="12">
               <use href="./images/icons.svg#vectorname"
             </svg>
+            </input>
           </label>
-          <label
+          <label class="label-1"
             >Телефон
-            <input type="tel" name="usertel" />
-            <svg width="12" height="12">
+            <input type="tel" class="input-name" name="usertel" />
+            <svg class="svg-name" width="12" height="12">
               <use href="./images/icons.svg#vectortel"
             </svg>
+            </input>
           </label>
-          <label
+          <label class="label-1"
             >Пошта
-            <input type="mail" name="usermail" />
-            <svg width="12" height="12">
+            <input type="mail" class="input-name" name="usermail" />
+            <svg class="svg-name" width="12" height="12">
               <use href="./images/icons.svg#vectormail"
             </svg>
+            </input>
           </label>
           <label
             >Коментар
@@ -617,10 +618,10 @@
             >
           </label>
           <label>
-            <input class="check" type="checkbox" name="click" value="" checked />
-          <p class="check-class">Погоджуюся з розсилкою та приймаю <a href="/" ><span class="check-text">Умови договору</span></a></p>
+            <input class="check" type="checkbox" name="click" />
+          <span class="check-class">Погоджуюся з розсилкою та приймаю <a href="/" >Умови договору</span></span>
           </label>
-            <button type="button" class="check-btn" data-modal-open>
+            <button type="submit" class="check-btn" data-modal-open>
             Відправити            
             </button>
         </form>
