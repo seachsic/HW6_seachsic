@@ -1030,6 +1030,7 @@ input {
   width: 16px;
   height: 15px;
   border-radius: 50%;
+  display: none;
 }
 
 .check:checked + .svg-check .icon-checked {
@@ -1054,16 +1055,27 @@ input {
 .check-class {
   position: absolute;
   left: 60px;
+  display: contents;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.03em;
+
+color: var(--grey-txt-clr)
 }
 
 .svg-check {
   outline: transparent;
+  height: 15px;
 }
 
 .label-check {
   display: flex;
-  justify-content: center;
+  padding-left: 10px;
+  padding-top: 20px;
   align-items: center;
+  padding-bottom: 30px;
 }
 
 .icon-check {
@@ -1074,9 +1086,11 @@ input {
 
 .treaty {
   color: var(--main-clr);
+
 }
 
 .check-text {
+
   color: var(--main-clr);
 }
 
