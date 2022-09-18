@@ -865,11 +865,10 @@ img {
   background-color: var(--light-txt-clr);
 }
 
-.vector-btn:hover, 
+.vector-btn:hover,
 .vector-btn:focus {
-    fill: var(--main-clr);
-  border: 1px solid var(--main-clr)
-
+  fill: var(--main-clr);
+  border: 1px solid var(--main-clr);
 }
 
 .svg-vector:hover,
@@ -944,10 +943,9 @@ img {
 }
 
 .form-title {
-
   font-weight: 700;
   font-size: 20px;
-  line-height: calc(23/20);
+  line-height: calc(23 / 20);
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-txt-clr);
@@ -987,8 +985,7 @@ img {
 .label-1 {
   position: relative;
   display: block;
-    margin-bottom: 10px;
-
+  margin-bottom: 10px;
 }
 
 input {
@@ -1049,7 +1046,8 @@ input {
 .icon-checked {
   transition-property: opacity;
   transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .icon-unchecked {
   transition-property: opacity;
@@ -1061,13 +1059,13 @@ input {
   position: absolute;
   left: 60px;
   display: contents;
-    font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 
-letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
 
-color: var(--grey-txt-clr)
+  color: var(--grey-txt-clr);
 }
 
 .svg-check {
@@ -1091,11 +1089,9 @@ color: var(--grey-txt-clr)
 
 .treaty {
   color: var(--main-clr);
-
 }
 
 .check-text {
-
   color: var(--main-clr);
 }
 
