@@ -282,9 +282,7 @@ img {
   line-height: 1.87;
   /* identical to box height, or 188% */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  display: block;
   cursor: pointer;
   color: var(--light-txt-clr);
   background-color: var(--main-clr);
@@ -292,7 +290,6 @@ img {
   border-radius: 4px;
   padding: 10px 32px;
   border: transparent;
-  width: 216px;
   margin: 0 auto;
 
   transition-property: background-color;
@@ -865,12 +862,6 @@ img {
   background-color: var(--light-txt-clr);
 }
 
-.vector-btn:hover,
-.vector-btn:focus {
-  fill: var(--main-clr);
-  border: 1px solid var(--main-clr);
-}
-
 .svg-vector:hover,
 .svg-vector:focus {
   fill: var(--main-clr);
@@ -978,6 +969,7 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.textarea-text:hover,
 .textarea-text:focus {
   border: 1px solid var(--main-clr);
 }
@@ -986,6 +978,10 @@ img {
   position: relative;
   display: block;
   margin-bottom: 10px;
+}
+
+.label-1:hover,
+.label-1:focus {
 }
 
 input {
@@ -998,6 +994,7 @@ input {
   outline: transparent;
 }
 
+.input-name:hover,
 .input-name:focus {
   border: 1px solid var(--main-clr);
 }
@@ -1034,12 +1031,11 @@ input {
   border-radius: 50%;
   display: none;
 }
-
-.check:checked + .svg-check .icon-checked {
+.check:checked + .svg-check .icon-unchecked {
   opacity: 1;
 }
 
-.check:checked + .svg-check .icon-unchecked {
+.check:checked + .svg-check .icon-checked {
   opacity: 0;
 }
 
